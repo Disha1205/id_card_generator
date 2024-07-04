@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h3 class="title">Student Details</h3>
+        <form action="">
+          <div class="fields">
+            <label for="schoolName">School Name:</label>
+            <input type="text" id="schoolName" />
+          </div>
+
+          <div class="fields">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" />
+          </div>
+
+          <div class="fields">
+            <label for="dateOfBirth">Date of birth:</label>
+            <input type="text" id="dateOfBirth" />
+          </div>
+
+          <div class="fields">
+            <label for="class">Class:</label>
+            <input type="text" id="class" />
+          </div>
+
+          <div class="fields">
+            <label for="rollNumber">Roll number:</label>
+            <input type="number" id="rollNumber" />
+          </div>
+
+          <div class="fields">
+            <label for="contactNumber">Contact Number:</label>
+            <input type="number" id="contactNumber" />
+          </div>
+
+<div class="fields">
+  <button class="btn" type="button" onclick="updateCard()">Submit Form</button>
+  <button class="btn" type="reset" onclick="clearAll()">Clear All</button>
+</div>          
+        </form>
+      </div>
+      <div class="box">
+        <h3 class="title"id="schoolNameVal">School Name</h3>
+        
+        <div class="fields">
+          <label for="">Student Name:</label>
+              <label for=""id="studentNameVal">Kaalu</label>
+
+        </div>
+        <div class="fields">
+          <label for="" >Date Of Birth:</label>
+              <label for=""id="dateOfBirthVal">15/12/2002</label>
+
+        </div>
+        <div class="fields">
+          <label for="" >class:</label>
+              <label for=""id="classVal">12</label>
+
+        </div>
+        <div class="fields">
+          <label for="" >Roll Number:</label>
+              <label  id="rollNumberVal">15</label>
+
+        </div>
+        <div class="fields">
+          <label >Contact  Number:</label>
+              <label for=""  id="contactNumberVal">8080796161</label>
+
+        </div>
+        <button class="btn print" type="button">Print Id Card</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

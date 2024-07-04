@@ -1,0 +1,43 @@
+
+.container{
+    display: flex;
+    
+   
+}
+.box{
+    background-color:#fff ;
+    width: 400px;
+    margin-right: 20px;
+    /* box-shadow: x y blur size color; */
+    box-shadow: 0px 0px 5px  black;
+
+}
+.title{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+.fields{
+    padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.fields > label{
+   
+    font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    padding: 8px 24px;
+    background-color:#e485f5;
+    border: 2px solid #730a86;
+cursor: pointer;
+
+}
+.btn.print{
+   margin-top: 20px;
+  margin-left: 120px;
+}
